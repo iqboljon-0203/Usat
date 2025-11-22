@@ -106,6 +106,64 @@
   display: flex;
 }
 
+.about {
+  width: 100%;
+  background-color: rgb(189, 187, 187);
+}
+.about .container {
+  display: flex;
+  justify-content: space-between;
+}
+.about_image {
+  width: 30%;
+  margin-right: 10px;
+}
+.about_image_img {
+  width: 100%;
+}
+.about_content {
+  width: 70%;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+.about_content_title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 90%;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  color: #21466D;
+  height: 129px;
+}
+.about_content_text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: rgba(33, 70, 109, 0.3490196078);
+}
+.about_box {
+  display: inline-block;
+  padding: 20px 5px;
+  align-items: center;
+  gap: 10px;
+  background-color: #FFC82A;
+  border-radius: 25px;
+}
+.about_box_image {
+  border-radius: 25px;
+  background-color: white;
+  display: inline;
+  padding: 15px 25px;
+}
+.about_box_link {
+  color: #21466D;
+}
+
 * {
   margin: 0;
   padding: 0;
