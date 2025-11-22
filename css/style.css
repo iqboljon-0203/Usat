@@ -17,6 +17,17 @@
   border: 2px solid red;
 }
 
+.usat_numbers {
+  width: 100%;
+  background-color: #21466D;
+}
+.usat_numbers_card {
+  width: 100%;
+}
+.usat_numbers_card_first {
+  display: flex;
+}
+
 * {
   margin: 0;
   padding: 0;
